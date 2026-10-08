@@ -17,7 +17,7 @@ int main()
         {
             ans=max(ans,(st[i]-st[i-1]));
         }
-        ans=max(ans,(2*(x-st[n-1    ])));
+        ans=max(ans,(2*(x-st[n-1])));
         cout<<ans<<endl;
     }
     return 0;

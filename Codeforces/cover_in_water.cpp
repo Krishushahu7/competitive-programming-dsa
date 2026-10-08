@@ -10,7 +10,7 @@ int main() {
         int n;cin>>n;
         string s;cin>>s;
         int current=0;int dots=0; bool three=false;
-        for(int i=0;i<n;i++)
+        for(int i=0;i<n;i++)    
         {
             if(s[i]=='.')
             {
